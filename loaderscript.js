@@ -34,6 +34,6 @@ jQuery.extend({
  });
  
  jQuery( document ).ready(function( $ ) {
-     $.getScript("https://uit.no/ressurs/canvas/main.js");
+     $.getScript("https://uit-ita.github.io/UiT-Canvas-js/main.js");
  });
  
