@@ -10,7 +10,7 @@
 
 ## Build
 
-1. `webpack``
+1. `webpack`
 
 ## Deploy
 
