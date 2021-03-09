@@ -69,7 +69,7 @@ async function uioZBbuildArray(groupsetid){
 					  /************************************************************************************************************************/
 						/* Depending on your username in Zoom and identical id in Canvas, you might want to change the line below from login_id */
 						/************************************************************************************************************************/
-						ZBlist.push([groups[i].name,members[j].login_id]);
+						ZBlist.push([groups[i].name,members[j].email]);
 				}
 		}
 		uioZBexportToCsv(`zoom_breakout_${groupset.name}.csv`,ZBlist);
