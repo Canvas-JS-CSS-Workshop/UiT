@@ -19,3 +19,9 @@
 3. `git commit -m "Deploying to gh-pages"`
 4. `git push origin gh-pages`
 5. `cd ..`
+
+Oneliner:
+```bash
+cd dist ; git add --all ; git commit -m "Deploying to gh-pages" ; git push origin gh-pages ; cd ..
+```
+
